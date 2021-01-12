@@ -1,6 +1,7 @@
 # face-recognition
-modules used:
+## modules used:
 * cv2
 * numpy
-algorithum used:
+## algorithum used:
 * haarcascade frontalface
+### Simple and very intuitive
