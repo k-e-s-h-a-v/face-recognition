@@ -20,7 +20,6 @@ for (subdirs, dirs, files) in os.walk(datasets):
 print(images, labels)                   
 (width, height) = (130, 100)
 model = cv2.face.LBPHFaceRecognizer_create()
-#model =  cv2.face.FisherFaceRecognizer_create()
 
 model.train(images, labels)
 
@@ -56,6 +55,3 @@ while True:
 
 webcam.release()
 cv2.destroyAllWindows()
-
-
-
